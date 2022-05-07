@@ -22,6 +22,21 @@ body {
    background: var(--color-grey);
 }
 
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
 /* don't edit this */
 .jest-lite-report__status--pass {
   background: var(--color-pass);
