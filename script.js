@@ -64,8 +64,6 @@ test("There are at least 500 words on the page", () => {
   expect(getWords.length).toBeGreaterThanOrEqual(500);
 });
 
-const console = document.getElementById("tests");
-prettify.toHTML(run(), console);
 
 function getNumberOrString(value) {
   // Convert a string value to a number if possible
